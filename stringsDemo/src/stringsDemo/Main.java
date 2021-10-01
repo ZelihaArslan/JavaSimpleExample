@@ -11,7 +11,8 @@ public class Main {
 		
 		  System.out.println("Eleman sayýsý:" +mesaj.length());
 		  System.out.println("5.eleman:" + mesaj.charAt(4)); //dizinin 4. elemaný
-		  System.out.println(mesaj.concat(" Yaþasýn!")); //bu kelime ile cümleyi birleþtir System.out.println(mesaj.startsWith("B"));
+		  System.out.println(mesaj.concat(" Yaþasýn!")); //bu kelime ile cümleyi birleþtir 
+		  System.out.println(mesaj.startsWith("B"));
 		  System.out.println(mesaj.endsWith(".")); //cümlenin sonu nokta ile bitiyorsa  true bitmiyorsa false 
 		  char[] karakterler =new char[25]; mesaj.getChars(0, 5,karakterler, 0); //karakterler adýndaki diziye ilk 5 karakteri getir
 		  System.out.println(karakterler); 
